@@ -1,0 +1,18 @@
+{
+  "name": "hummingbird.me-sdk-v1",
+  "version": "0.0.1",
+  "description": "Unofficial SDK for the hummingbird.me REST API.",
+  "main": "bin/app.js",
+  "author": "jmdarling@me.com",
+  "license": "MIT",
+  "dependencies": {
+    "babel-preset-es2015": "^6.18.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-mocha": "^3.0.1",
+    "gulp-plumber": "^1.1.0",
+    "mocha": "^3.1.2",
+    "request": "^2.79.0",
+    "sinon": "^1.17.6"
+  }
+}
