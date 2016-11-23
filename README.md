@@ -2,7 +2,7 @@
 SDK for the hummingbird.me API, V1.
 
 ## Usage
-This project is in active development and aims to eventually implement all methods provided by the hummingbird.me V1 API.
+This project is in active development and aims to eventually implement all methods provided by the (hummingbird.me V1 API)[https://github.com/hummingbird-me/hummingbird/wiki/API-v1-Methods].
 
 ### Constructor
 Create a new instance of the Hummingbird SDK by calling its constructor.
