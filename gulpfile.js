@@ -1,12 +1,20 @@
 const babel = require('gulp-babel')
 const gulp = require('gulp')
+const istanbul = require('gulp-istanbul')
 const mocha = require('gulp-mocha')
 const plumber = require('gulp-plumber')
 
-gulp.task('test', () => {
+gulp.task('pre-test', () => {
+  gulp.src('./bin/*.js')
+    .pipe(istanbul())
+    .pipe(istanbul.hookRequire())
+})
+
+gulp.task('test', ['pre-test'], () => {
   gulp.src('./test/*.js')
     .pipe(plumber())
     .pipe(mocha())
+    .pipe(istanbul.writeReports())
 })
 
 gulp.task('transpile', () => {
