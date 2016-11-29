@@ -1,6 +1,6 @@
 {
   "name": "hummingbird.me-sdk-v1",
-  "version": "0.0.5",
+  "version": "0.0.1",
   "description": "Unofficial SDK for the hummingbird.me REST API.",
   "main": "bin/app.js",
   "author": "jmdarling@me.com",
